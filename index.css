@@ -76,7 +76,7 @@
     padding: 16px;
     font-size: 16px;
     border: none;
-    
+    text-decoration: none;
     border-radius: 4px;
 }
 
@@ -115,4 +115,11 @@
 
 .dropdown:hover .dropbtn {
     background-color: rgb(95, 205, 241);
+}
+
+a {
+    color: white;
+}
+a:visited {
+    color: white;
 }
