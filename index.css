@@ -117,6 +117,10 @@
     background-color: rgb(95, 205, 241);
 }
 
+.dropdown-content a:visited {
+    color: black;
+}
+
 a {
     color: white;
 }
