@@ -2,23 +2,14 @@
 <html lang="en">
     <title>Quỳnh's Website</title>
     <head>
-        <script
-            async
-            src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-        ></script>
         <script>
-            (adsbygoogle = window.adsbygoogle || []).push({
-                google_ad_client: "ca-pub-1373319960225719",
-                enable_page_level_ads: true
-            });
+            function goBack() {
+                window.history.back();
+            }
         </script>
     </head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Inconsolata"
-    />
     <link rel="stylesheet" href="index.css" />
     <body>
         <!-- Header -->
@@ -40,7 +31,8 @@
                 </button>
                 <div class="dropdown-content">
                     <a href="taurus.html">Kim Ngưu</a>
-                    <a href="capricorn">Ma Kết</a> <a href="virgo">Xử Nữ</a>
+                    <a href="capricorn.html">Ma Kết</a>
+                    <a href="virgo.html">Xử Nữ</a>
                 </div>
             </div>
             <div class="dropdown">
@@ -48,7 +40,7 @@
                     <a href="water.html" style="text-decoration: none">Nước</a>
                 </button>
                 <div class="dropdown-content">
-                    <a href="cancer.htmk">Cự Giải</a>
+                    <a href="cancer.html">Cự Giải</a>
                     <a href="scorpius.html">Bọ Cạp</a>
                     <a href="pisces.html">Song Ngư</a>
                 </div>
@@ -72,6 +64,9 @@
                     <a href="libra.html">Thiên Bình</a>
                     <a href="aquarius.html">Bảo bình</a>
                 </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="goBack">Back</button>
             </div>
         </header>
 

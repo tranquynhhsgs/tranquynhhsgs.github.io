@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 .background {
     width: 100%;
     height: 600px;
@@ -12,6 +14,9 @@
     color: white;
     margin-left: auto;
     margin-right: auto;
+
+    font-weight: 100;
+    font-family: Quicksand;
 }
 
 .display-middle {
@@ -24,7 +29,9 @@
     border: 1px solid #ccc;
     letter-spacing: 4px;
     color: #f1f1f1;
-    font-family: century;
+
+    font-weight: 100;
+    font-family: Quicksand;
 }
 
 .navbar {
@@ -68,6 +75,9 @@
     max-width: 800px;
     padding-top: 64px;
     padding-bottom: 64px;
+
+    font-weight: 100;
+    font-family: Quicksand;
 }
 
 .dropbtn {

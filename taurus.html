@@ -2,23 +2,14 @@
 <html lang="en">
     <title>Quỳnh's Website</title>
     <head>
-        <script
-            async
-            src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-        ></script>
         <script>
-            (adsbygoogle = window.adsbygoogle || []).push({
-                google_ad_client: "ca-pub-1373319960225719",
-                enable_page_level_ads: true
-            });
+            function goBack() {
+                window.history.back();
+            }
         </script>
     </head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Inconsolata"
-    />
     <link rel="stylesheet" href="index.css" />
     <body>
         <!-- Header -->
@@ -66,13 +57,16 @@
             </div>
             <div class="dropdown">
                 <button class="dropbtn">
-                    <a href="ir.html" style="text-decoration: none">Khí</a>
+                    <a href="air.html" style="text-decoration: none">Khí</a>
                 </button>
                 <div class="dropdown-content">
                     <a href="gemini.html">Song Tử</a>
                     <a href="libra.html">Thiên Bình</a>
                     <a href="aquarius.html">Bảo bình</a>
                 </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="goBack()">Back</button>
             </div>
         </header>
 
